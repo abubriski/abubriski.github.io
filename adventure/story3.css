@@ -1,0 +1,106 @@
+body{
+min-width: 1000px;
+max-width: 2000px;
+margin: auto;
+padding: 0px;
+background-color: #020;
+background-repeat: no-repeat;
+background-size: auto;
+font-family: Arial, sans-serif;
+}
+
+header,footer{
+margin: 0px;
+padding: 5px;
+background-color: #040;
+}
+
+h1{
+text-align: center;
+font-family: serif;
+margin: 0px;
+}
+
+#title{
+font-size: 50px;
+color: rgb(44, 307, 44);
+text-decoration: none;
+}
+
+#title:hover,#message:hover{
+text-decoration: underline;
+}
+
+#message{
+font-size: 40px;
+color: rgb(44, 230, 44);
+text-decoration: none;
+}
+
+#subtitle,footer p{
+color: #FFF;
+font-size: 20px;
+text-align: center;
+}
+
+#subtitle{
+margin: 15px;
+}
+
+button{
+background-color: #060;
+border-radius: 4px;
+border: none;
+padding: 4px;
+}
+
+p,label,button{
+color: #FFF;
+font-size: 18px;
+}
+
+textarea,input{
+font-size: 18px;
+font-family: Arial, sans-serif;
+}
+
+a{
+transition: font-size 0.3s;
+}
+
+a:active, a:hover{
+font-size: 27px;
+}
+
+article{
+border-radius: 20px;
+background-color: #010;
+backdrop-filter: blur(2px);
+margin: 30px;
+margin-right: 250px;
+margin-left: 250px;
+padding: 20px;
+}
+
+.choices{
+display: flex;
+}
+
+.choice{
+margin: 5px;
+flex: 1;
+font-size: 25px;
+text-align: center;
+}
+
+.nochoice{
+margin: 5px;
+flex: 1;
+font-size: 25px;
+text-align: center;
+opacity: 0.0;
+}
+
+.struck{
+text-decoration: line-through;
+}
