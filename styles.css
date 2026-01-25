@@ -47,7 +47,11 @@ header, footer {
   font-size: 0.9em;
   width: 100%;
   padding: 25px;
-  background-color: #89bfd5;
+  background-color: #2E86AB;
+}
+
+footer p {
+  color: #FFF;
 }
 
 img {
