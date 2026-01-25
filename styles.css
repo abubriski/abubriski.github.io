@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: auto;
+  font-family: Arial, sans-serif;
+  color: #222;
+  background-color: #F6F5AE;
+}
+
+#about, #performances, #composed-music, #dance-recitals, #origami, #choose-your-own-adventure {
+  border: 1px solid rgb(244, 235, 235);
+  margin: 25px auto;
+  width: 60%;
+  padding: 25px;
+  background-color: #fff;
+}
+
+h1, h2 {
+  text-align: center;
+  color: #666;
+}
+
+a {
+    color: #2E86AB;
+}
+
+h3, p {
+  text-indent: 20px;
+}
+
+p, li {
+  font-size: 20px;
+}
+
+header, footer {
+  text-align: center;
+  font-size: 0.9em;
+  border: 1px solid rgb(244, 235, 235);
+  width: 100%;
+  padding: 25px;
+  background-color: #fff;
+}
+
+img {
+  width: 30%;
+  padding: auto;
+  margin: auto;
+}
+
+#origami-images, #profile-container, #adventure-image {
+  text-align: center;
+}
+
+.btn {
+  display: block;
+  margin: auto;
+  padding: 25px;
+  font-size: 20px;
+  border: none;
+}
+
+.btn a {
+    text-decoration: none;
+}
+
+.btn a:hover {
+  color: #f4d8d8;
+}
+
+.btn:hover {
+  background-color: rgba(123, 4, 4, 0.761);
+}
