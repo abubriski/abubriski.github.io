@@ -5,8 +5,8 @@
 body {
   margin: auto;
   font-family: Arial, sans-serif;
-  color: #222;
-  background-color: #F6F5AE;
+  color: #000;
+  background-color: #f6f1ae;
 }
 
 #about, #performances, #composed-music, #dance-recitals, #origami, #choose-your-own-adventure {
@@ -39,7 +39,7 @@ h3, p {
 
 p, li {
   font-size: 20px;
-  color: #292800;
+  color: #000000;
 }
 
 header, footer {
